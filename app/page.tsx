@@ -372,12 +372,12 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-gradient-to-r from-stone-800 via-emerald-900 to-stone-800 text-white z-50 shadow-2xl backdrop-blur-sm border-b-4 border-gradient-to-r from-amber-600 via-emerald-600 to-amber-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-24">
+          <div className="flex justify-between items-center h-20">
             {/* Logo con elementos mayas */}
-            <div className="flex-shrink-0 flex items-center space-x-6">
+            <div className="flex-shrink-0 flex items-center space-x-4">
               {/* Pirámide Maya */}
               <div className="relative">
-                <svg width="40" height="40" viewBox="0 0 40 40" className="text-amber-400">
+                <svg width="36" height="36" viewBox="0 0 40 40" className="text-amber-400">
                   <path d="M20 4 L32 20 L20 16 L8 20 Z" fill="currentColor" opacity="0.8" />
                   <path d="M8 20 L32 20 L28 28 L12 28 Z" fill="currentColor" opacity="0.6" />
                   <path d="M12 28 L28 28 L24 36 L16 36 Z" fill="currentColor" opacity="0.4" />
@@ -387,7 +387,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
 
               {/* Logo principal */}
               <div className="relative">
-                <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-stone-200 via-amber-300 to-stone-200 tracking-wider font-serif">
+                <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-stone-200 via-amber-300 to-stone-200 tracking-wider font-serif">
                   SAC-BÉ
                 </h1>
                 <div className="absolute -bottom-1 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent rounded-full"></div>
@@ -398,8 +398,8 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
             </div>
 
             {/* Desktop Menu con decoraciones mayas */}
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-center space-x-1">
+            <div className="hidden md:block flex-1 flex justify-center">
+              <div className="flex items-center space-x-1">
                 {[
                   { name: "Inicio", id: "inicio" },
                   { name: "Historia", id: "historia" },
@@ -409,10 +409,10 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
                   { name: "Galería", id: "galeria" },
                   { name: "Reservas", id: "reservas" },
                 ].map((item, index) => (
-                  <div key={item.name} className="relative group">
+                  <div key={item.name} className="relative group flex items-center">
                     <button
                       onClick={() => scrollToSection(item.id)}
-                      className="relative px-4 py-3 text-stone-200 hover:text-amber-300 transition-all duration-300 font-medium tracking-wide flex flex-col items-center space-y-1"
+                      className="relative px-3 py-2 text-stone-200 hover:text-amber-300 transition-all duration-300 font-medium tracking-wide"
                     >
                       <span className="text-sm font-semibold tracking-wider">{item.name}</span>
 
@@ -438,13 +438,13 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
             </div>
 
             {/* Mobile menu button con diseño maya */}
-            <div className="md:hidden">
+            <div className="md:hidden flex-shrink-0">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="relative text-stone-200 hover:text-amber-300 transition-colors duration-200 p-3 rounded-lg border border-stone-600 hover:border-amber-400"
+                className="relative text-stone-200 hover:text-amber-300 transition-colors duration-200 p-2 rounded-lg border border-stone-600 hover:border-amber-400"
               >
                 <div className="relative">
-                  {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                  {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
                   {/* Decoración de esquinas mayas */}
                   <div className="absolute -top-1 -left-1 w-2 h-2 border-l border-t border-amber-400 opacity-60"></div>
                   <div className="absolute -top-1 -right-1 w-2 h-2 border-r border-t border-amber-400 opacity-60"></div>
