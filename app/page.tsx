@@ -92,20 +92,58 @@ export default function SacBePage() {
       return
     }
 
+    // Crear mensaje formateado para WhatsApp
+    const mensaje = `🍃 *¡Jach ki'imak in wóol! (¡Muy contento!)* 🍃
+
+*NUEVA RESERVA SAC-BÉ - LA RUTA DE LOS SABORES*
+
+📋 *DETALLES DE LA RESERVA:*
+• *Nombre:* ${formData.nombre}
+• *Teléfono:* ${formData.telefono}
+• *Email:* ${formData.email}
+• *Fecha:* ${formData.fecha}
+• *Hora:* ${formData.hora}
+• *Personas:* ${formData.personas}
+• *Evento:* ${formData.evento || "Experiencia regular"}
+• *Comentarios:* ${formData.comentarios || "Ninguno"}
+
+🌮 *EXPERIENCIA INCLUYE:*
+• Degustación de platillos tradicionales
+• Historia y origen de cada receta
+• Evento cultural (según disponibilidad)
+• Ingredientes 100% locales y orgánicos
+• Ambiente auténtico yucateco
+
+📞 *CONTACTO SAC-BÉ:*
+• WhatsApp: +52 999 123 4567
+• Email: hola@sacbe-yucatan.com
+• Ubicación: Mérida, Yucatán
+
+¡Gracias por elegir la auténtica experiencia maya! 🏺`
+
+    // Codificar el mensaje para la URL de WhatsApp
+    const mensajeCodificado = encodeURIComponent(mensaje)
+    
+    // Número de WhatsApp (reemplaza con tu número real)
+    const numeroWhatsApp = "528130422601" // Formato internacional sin espacios ni +
+    
+    // Crear enlace de WhatsApp
+    const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`
+    
+    // Abrir WhatsApp en nueva pestaña
+    window.open(urlWhatsApp, '_blank')
+
+    // Mostrar confirmación
     alert(
       `¡Jach ki'imak in wóol! (¡Muy contento!) 
     
-Reserva confirmada:
-• Nombre: ${formData.nombre}
-• Teléfono: ${formData.telefono}
-• Email: ${formData.email}
-• Fecha: ${formData.fecha} 
-• Hora: ${formData.hora}
-• Personas: ${formData.personas}
-• Evento: ${formData.evento || "Experiencia regular"}
-• Comentarios: ${formData.comentarios || "Ninguno"}
+Tu reserva ha sido procesada y se abrirá WhatsApp automáticamente con todos los detalles.
 
-¡Te contactaremos por WhatsApp y email para confirmar todos los detalles!`,
+Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
+• WhatsApp: +52 999 123 4567
+• Email: hola@sacbe-yucatan.com
+
+¡Te contactaremos para confirmar todos los detalles!`
     )
 
     setFormData({
