@@ -125,7 +125,7 @@ export default function SacBePage() {
     const mensajeCodificado = encodeURIComponent(mensaje)
     
     // Número de WhatsApp (reemplaza con tu número real)
-    const numeroWhatsApp = "528130422601" // Formato internacional sin espacios ni +
+    const numeroWhatsApp = "528997318733" // Formato internacional sin espacios ni +
     
     // Crear enlace de WhatsApp
     const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${mensajeCodificado}`
