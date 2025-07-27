@@ -532,7 +532,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105"
             style={{
-              backgroundImage: `url('/placeholder.svg?height=1080&width=1920&text=Food+Truck+Turístico+Yucateco')`,
+              backgroundImage: `url('/sacbelogo.jpg?height=1080&width=1920')`,
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-br from-stone-900/70 via-orange-900/60 to-amber-900/70" />
@@ -541,24 +541,23 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
 
         <div className="relative z-10 text-center text-white px-4 max-w-6xl mx-auto">
           <div className="mb-12 flex justify-center">
-            <SacBeLogo size="large" className="transform scale-150" />
           </div>
 
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold mb-8 leading-tight font-serif">
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-300 via-red-300 to-yellow-400 tracking-wider drop-shadow-2xl">
-              FOOD TRUCK TURÍSTICO
+
             </span>
             <span className="block text-lg md:text-2xl text-orange-200/80 font-light tracking-wider mt-4 italic">
-              Gastronomía • Cultura • Turismo Yucateco
+            
             </span>
           </h1>
 
           <div className="max-w-5xl mx-auto mb-12">
             <p className="text-2xl md:text-3xl lg:text-4xl text-orange-100 leading-relaxed font-light mb-6">
-              6 Municipios • 4 Combos Especiales • Experiencia Cultural Inmersiva
+           
             </p>
             <p className="text-lg md:text-xl text-yellow-200/90 leading-relaxed">
-              Miércoles a Domingo • 6:00 PM - 11:00 PM • Parques y Eventos de Mérida
+             
             </p>
           </div>
 
@@ -579,16 +578,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
           </div>
 
           <div className="mt-12 flex justify-center">
-            <div className="bg-black/30 backdrop-blur-sm rounded-full px-6 py-3 flex items-center space-x-4">
-              <button
-                onClick={() => setIsPlaying(!isPlaying)}
-                className="text-yellow-400 hover:text-yellow-300 transition-colors"
-              >
-                {isPlaying ? <Pause size={20} /> : <Play size={20} />}
-              </button>
-              <Volume2 className="text-yellow-400" size={16} />
-              <span className="text-yellow-200 text-sm">Música Regional Yucateca</span>
-            </div>
+           
           </div>
         </div>
       </section>
@@ -622,7 +612,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
               </p>
               <div className="bg-green-50 rounded-2xl p-6 border-l-4 border-green-500">
                 <p className="text-green-800 font-medium italic">
-                  "Una fusión única de gastronomía, cultura y turismo local en una experiencia móvil e inmersiva."
+                  "Una fusión única de gastronomía, cultura y turismo local en una experiencia unica."
                 </p>
               </div>
             </div>
