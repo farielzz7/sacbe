@@ -415,23 +415,23 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
 
   // Logo component
   const SacBeLogo = ({ size = "large", className = "" }) => (
-    <div className={`flex items-center space-x-4 ${className}`}>
+    <div className={`flex items-center space-x-3 ${className}`}>
       <div className="relative">
         <img
           src="/logo.png"
           alt="Sac-Bé Logo"
-          className={`${size === "large" ? "w-28 h-28" : "w-24 h-24"} object-contain`}
+          className={`${size === "large" ? "w-65 h-65" : "w-36 h-36"} object-contain`}
         />
       </div>
       <div className="relative">
         <h1
-          className={`${size === "large" ? "text-6xl" : "text-5xl"} font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-400 to-orange-500 tracking-wider font-serif`}
+          className={`${size === "large" ? "text-4xl" : "text-3xl"} font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-400 to-orange-500 tracking-wider font-serif`}
         >
           SAC-BÉ
         </h1>
         <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-orange-400 to-transparent rounded-full"></div>
         <div
-          className={`${size === "large" ? "text-lg" : "text-base"} text-orange-600 font-light tracking-widest mt-1 text-center`}
+          className={`${size === "large" ? "text-xs" : "text-xs"} text-orange-600 font-light tracking-widest mt-1 text-center`}
         >
           LA RUTA DE LOS SABORES
         </div>
@@ -444,7 +444,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-gradient-to-r from-stone-200 via-amber-100 to-stone-200 text-stone-800 z-50 shadow-2xl backdrop-blur-sm border-b-4 border-amber-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-32">
+          <div className="flex justify-between items-center h-24">
             {/* Logo */}
             <div className="flex-shrink-0">
               <SacBeLogo size="medium" />
