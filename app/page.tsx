@@ -477,23 +477,9 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
 
             {/* Mobile menu button */}
             <div className="md:hidden">
-              <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="relative text-stone-700 hover:text-orange-700 transition-colors duration-200 p-3 rounded-lg border border-amber-300 hover:border-orange-400"
-              >
-                Reservar
-              </button>
             </div>
             {/* Mobile menu button */}
             <div className="md:hidden flex-shrink-0">
-              <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="relative text-[#F27A5E] hover:text-[#00B388] transition-colors duration-200 p-2 rounded-lg border border-[#00B388]"
-              >
-                <div className="relative">
-                  {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
-                </div>
-              </button>
             </div>
           </div>
         </div>
