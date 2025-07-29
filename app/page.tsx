@@ -173,7 +173,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       descripcion:
         "Tortillas fritas cubiertas de lechuga, tomate, cebolla morada, aguacate y pollo deshebrado. Preparadas con recado rojo tradicional y servidas con salsa de chile habanero.",
       ingredientes: ["Masa de maíz criollo", "Pollo de rancho", "Recado rojo", "Chile habanero", "Cebolla morada"],
-      precio: "$45",
+      precio: "$40",
       icono: "🌮",
       historia:
         "Platillo tradicional de Kanasín, donde las familias mayas perfeccionaron esta receta durante generaciones.",
@@ -186,7 +186,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       descripcion:
         "Tortillas rellenas de frijol colado, fritas hasta quedar crujientes y coronadas con cochinita pibil, cebolla morada encurtida en naranja agria y chile habanero.",
       ingredientes: ["Frijol negro", "Cochinita pibil", "Achiote", "Naranja agria", "Hoja de plátano"],
-      precio: "$50",
+      precio: "$45",
       icono: "🫓",
       historia: "Especialidad de Kanasín que combina técnicas mayas ancestrales con sabores únicos de la región.",
       tiempo: "Receta ancestral maya",
@@ -198,7 +198,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       descripcion:
         "Carne de cerdo marinada en naranja agria y asada al carbón, servida con chiltomate casero, cebolla asada y tortillas hechas a mano con masa de maíz criollo.",
       ingredientes: ["Cerdo de rancho", "Naranja agria", "Tomate", "Chile dulce", "Carbón de tzalam"],
-      precio: "$85",
+      precio: "$100",
       icono: "🥩",
       historia: "Platillo tradicional de Maní, cocinado en fogones de leña bajo las estrellas yucatecas.",
       tiempo: "Tradición ganadera de Maní",
@@ -216,7 +216,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
         "Pan francés",
         "Chile habanero",
       ],
-      precio: "$65",
+      precio: "$40",
       icono: "🍞",
       historia: "Especialidad de Valladolid que fusiona la tradición española del pan con sabores mayas auténticos.",
       tiempo: "Mestizaje culinario vallisoletano",
@@ -228,7 +228,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       descripcion:
         "Empanadas crujientes rellenas de chaya (espinaca maya) con queso de bola, acompañadas de salsa de tomate yucateca con chile dulce.",
       ingredientes: ["Chaya fresca", "Queso de bola", "Masa de trigo", "Tomate", "Chile dulce"],
-      precio: "$40",
+      precio: "$35",
       icono: "🥟",
       historia: "La chaya, planta sagrada maya de Buctzotz, se convierte en deliciosa empanada tradicional.",
       tiempo: "Ingrediente sagrado de Buctzotz",
@@ -238,9 +238,9 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       nombreMaya: "Waaj",
       origen: "Espita",
       descripcion:
-        "Pequeños tamales de masa colada con pollo en recado rojo, envueltos en hoja de plátano y cocidos en vapor. Acompañados de salsa de tomate yucateca.",
+        " Orden de 2 pequeños tamales de masa colada con pollo en recado rojo, envueltos en hoja de plátano y cocidos en vapor. Acompañados de salsa de tomate yucateca.",
       ingredientes: ["Masa colada", "Pollo criollo", "Recado rojo", "Hoja de plátano", "Manteca de cerdo"],
-      precio: "$35",
+      precio: "$30",
       icono: "🫔",
       historia: "Preparados en Espita siguiendo recetas transmitidas por las abuelas mayas de la región.",
       tiempo: "Ritual culinario de Espita",
@@ -251,45 +251,45 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
     {
       nombre: "Combo Valladolid/Buctzotz",
       descripcion: "2 molletes de longaniza, 1 empanada de chaya, jugo y postre a elegir",
-      precio: "$150",
+      precio: "$110",
       municipios: ["Valladolid", "Buctzotz"],
       incluye: ["2 Molletes", "1 Empanada de chaya", "Jugo", "Postre"],
     },
     {
       nombre: "Combo Espita/Valladolid",
       descripcion: "1 tamalito, 1 mollete de longaniza, jugo y postre a elegir",
-      precio: "$120",
+      precio: "$85",
       municipios: ["Espita", "Valladolid"],
       incluye: ["1 Tamalito", "1 Mollete", "Jugo", "Postre"],
     },
     {
       nombre: "Combo Maní/Buctzotz",
       descripcion: "½ orden de poc-chuc, 1 empanada de chaya, jugo o postre a elegir",
-      precio: "$110",
+      precio: "$120",
       municipios: ["Maní", "Buctzotz"],
       incluye: ["½ Poc-chuc", "1 Empanada", "Jugo o Postre"],
     },
     {
       nombre: "Combo Kanasín",
       descripcion: "2 salbutes, 2 panuchos, jugo a elegir",
-      precio: "$130",
+      precio: "$125",
       municipios: ["Kanasín"],
       incluye: ["2 Salbutes", "2 Panuchos", "Jugo"],
     },
   ]
 
   const postres = [
-    { nombre: "Cremita de Coco", precio: "$25", descripcion: "Postre tradicional yucateco cremoso y refrescante" },
-    { nombre: "Pan de Elote", precio: "$20", descripcion: "Pan dulce hecho con elote fresco de la región" },
-    { nombre: "Barquillas", precio: "$15", descripcion: "Galletas crujientes tradicionales yucatecas" },
-    { nombre: "Caballero Pobre", precio: "$30", descripcion: "Postre clásico con pan, almíbar y canela" },
+    { nombre: "Cremita de Coco", precio: "$10", descripcion: "Postre tradicional yucateco cremoso y refrescante" },
+    { nombre: "Pan de Elote", precio: "$15", descripcion: "Pan dulce hecho con elote fresco de la región" },
+    { nombre: "Barquillas", precio: "$5", descripcion: "Galletas crujientes tradicionales yucatecas" },
+    { nombre: "Caballero Pobre", precio: "$15", descripcion: "Postre clásico con pan, almíbar y canela" },
   ]
 
   const bebidas = [
     { nombre: "Jugo de Naranja", precio: "$20", descripcion: "Naranja fresca de huertos yucatecos" },
-    { nombre: "Limonada", precio: "$18", descripcion: "Refrescante limonada con limones locales" },
-    { nombre: "Horchata", precio: "$25", descripcion: "Bebida tradicional de arroz con canela" },
-    { nombre: "Jamaica", precio: "$18", descripcion: "Agua fresca de flor de jamaica" },
+    { nombre: "Limonada", precio: "$20", descripcion: "Refrescante limonada con limones locales" },
+    { nombre: "Horchata", precio: "$20", descripcion: "Bebida tradicional de arroz con canela" },
+    { nombre: "Jamaica", precio: "$10", descripcion: "Agua fresca de flor de jamaica" },
   ]
 
   const ubicaciones = [
@@ -418,20 +418,20 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
     <div className={`flex items-center space-x-4 ${className}`}>
       <div className="relative">
         <img
-          src="/sacbelogo.jpg"
+          src="/logo.png"
           alt="Sac-Bé Logo"
-          className={`${size === "large" ? "w-16 h-16" : "w-12 h-12"} object-contain`}
+          className={`${size === "large" ? "w-28 h-28" : "w-24 h-24"} object-contain`}
         />
       </div>
       <div className="relative">
         <h1
-          className={`${size === "large" ? "text-4xl" : "text-2xl"} font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-400 to-orange-500 tracking-wider font-serif`}
+          className={`${size === "large" ? "text-6xl" : "text-5xl"} font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-red-400 to-orange-500 tracking-wider font-serif`}
         >
           SAC-BÉ
         </h1>
         <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-orange-400 to-transparent rounded-full"></div>
         <div
-          className={`${size === "large" ? "text-xs" : "text-xs"} text-orange-600 font-light tracking-widest mt-1 text-center`}
+          className={`${size === "large" ? "text-lg" : "text-base"} text-orange-600 font-light tracking-widest mt-1 text-center`}
         >
           LA RUTA DE LOS SABORES
         </div>
@@ -444,7 +444,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-gradient-to-r from-stone-200 via-amber-100 to-stone-200 text-stone-800 z-50 shadow-2xl backdrop-blur-sm border-b-4 border-amber-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-24">
+          <div className="flex justify-between items-center h-32">
             {/* Logo */}
             <div className="flex-shrink-0">
               <SacBeLogo size="medium" />
@@ -461,7 +461,7 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
                   { name: "Ubicaciones", id: "ubicaciones" },
                   { name: "Reservas", id: "reservas" },
                 ].map((item, index) => (
-                  <div key={item.name} className="relative group">
+                  <div key={item.name} className="relative group flex items-center">
                     <button
                       onClick={() => scrollToSection(item.id)}
                       className="relative px-4 py-3 text-stone-700 hover:text-orange-700 transition-all duration-300 font-medium tracking-wide flex flex-col items-center space-y-1"
@@ -481,49 +481,22 @@ Si WhatsApp no se abre automáticamente, puedes contactarnos directamente:
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="relative text-stone-700 hover:text-orange-700 transition-colors duration-200 p-3 rounded-lg border border-amber-300 hover:border-orange-400"
               >
+                Reservar
+              </button>
+            </div>
+            {/* Mobile menu button */}
+            <div className="md:hidden flex-shrink-0">
+              <button
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                className="relative text-[#F27A5E] hover:text-[#00B388] transition-colors duration-200 p-2 rounded-lg border border-[#00B388]"
+              >
                 <div className="relative">
-                  {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-                  <div className="absolute -top-1 -left-1 w-2 h-2 border-l border-t border-orange-400 opacity-60"></div>
-                  <div className="absolute -top-1 -right-1 w-2 h-2 border-r border-t border-orange-400 opacity-60"></div>
-                  <div className="absolute -bottom-1 -left-1 w-2 h-2 border-l border-b border-orange-400 opacity-60"></div>
-                  <div className="absolute -bottom-1 -right-1 w-2 h-2 border-r border-b border-orange-400 opacity-60"></div>
+                  {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
                 </div>
               </button>
             </div>
           </div>
-
-          {/* Mobile Menu */}
-          {isMenuOpen && (
-            <div className="md:hidden border-t border-amber-300 bg-gradient-to-b from-stone-200 to-amber-100">
-              <div className="px-4 pt-4 pb-6 space-y-2">
-                {[
-                  { name: "Inicio", id: "inicio", desc: "Página principal" },
-                  { name: "Historia", id: "historia", desc: "Nuestra historia" },
-                  { name: "Menú", id: "menu", desc: "Platillos tradicionales" },
-                  { name: "Ingredientes", id: "ingredientes", desc: "Ingredientes locales" },
-                  { name: "Ubicaciones", id: "ubicaciones", desc: "Dónde encontrarnos" },
-                  { name: "Reservas", id: "reservas", desc: "Reserva tu mesa" },
-                ].map((item) => (
-                  <button
-                    key={item.name}
-                    onClick={() => scrollToSection(item.id)}
-                    className="group w-full text-left px-4 py-4 text-stone-700 hover:text-orange-700 hover:bg-stone-300/50 transition-all duration-200 rounded-xl border border-transparent hover:border-amber-300 flex items-center space-x-4"
-                  >
-                    <div className="w-2 h-2 bg-orange-500 rounded-full group-hover:scale-125 transition-transform duration-300"></div>
-                    <div className="flex-1">
-                      <div className="font-medium text-lg tracking-wide">{item.name}</div>
-                      <div className="text-amber-700 text-sm">{item.desc}</div>
-                    </div>
-                    <div className="text-stone-600 group-hover:text-orange-600 transition-colors duration-300">▶</div>
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
-
-        {/* Borde decorativo inferior */}
-        <div className="h-1 bg-gradient-to-r from-amber-400 via-orange-400 to-amber-400"></div>
       </nav>
 
       {/* Hero Section */}
